@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/olgakapskaya.github.io/homeworks-ignat/static/css/main.2ea757c0.css",
-    "main.js": "/olgakapskaya.github.io/homeworks-ignat/static/js/main.0d0cded0.js",
-    "static/js/787.1ac2ac62.chunk.js": "/olgakapskaya.github.io/homeworks-ignat/static/js/787.1ac2ac62.chunk.js",
-    "static/media/avatar.png": "/olgakapskaya.github.io/homeworks-ignat/static/media/avatar.d947cb9d0d13765666b6.png",
-    "index.html": "/olgakapskaya.github.io/homeworks-ignat/index.html",
-    "main.2ea757c0.css.map": "/olgakapskaya.github.io/homeworks-ignat/static/css/main.2ea757c0.css.map",
-    "main.0d0cded0.js.map": "/olgakapskaya.github.io/homeworks-ignat/static/js/main.0d0cded0.js.map",
-    "787.1ac2ac62.chunk.js.map": "/olgakapskaya.github.io/homeworks-ignat/static/js/787.1ac2ac62.chunk.js.map"
+    "main.css": "/OlgaKapskaya.github.io/homeworks-ignat/static/css/main.2ea757c0.css",
+    "main.js": "/OlgaKapskaya.github.io/homeworks-ignat/static/js/main.8c0f5cf9.js",
+    "static/js/787.1ac2ac62.chunk.js": "/OlgaKapskaya.github.io/homeworks-ignat/static/js/787.1ac2ac62.chunk.js",
+    "static/media/avatar.png": "/OlgaKapskaya.github.io/homeworks-ignat/static/media/avatar.d947cb9d0d13765666b6.png",
+    "index.html": "/OlgaKapskaya.github.io/homeworks-ignat/index.html",
+    "main.2ea757c0.css.map": "/OlgaKapskaya.github.io/homeworks-ignat/static/css/main.2ea757c0.css.map",
+    "main.8c0f5cf9.js.map": "/OlgaKapskaya.github.io/homeworks-ignat/static/js/main.8c0f5cf9.js.map",
+    "787.1ac2ac62.chunk.js.map": "/OlgaKapskaya.github.io/homeworks-ignat/static/js/787.1ac2ac62.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2ea757c0.css",
-    "static/js/main.0d0cded0.js"
+    "static/js/main.8c0f5cf9.js"
   ]
 }
