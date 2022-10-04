@@ -13,6 +13,11 @@
 }
 
 .superInput {
+    border: 1px solid #D1D1D1;
+    border-radius: 5px;
+    box-sizing: border-box;
+    width: 372px;
+    height: 36px;
 }
 
 .errorInput {
@@ -21,6 +26,8 @@
 }
 
 .errorInput:focus {
+    border: 1px solid #CC1439;
+    border-radius: 5px;
 }
 
 .error {
