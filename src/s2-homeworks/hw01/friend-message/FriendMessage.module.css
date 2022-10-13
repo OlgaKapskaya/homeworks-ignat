@@ -1,18 +1,23 @@
 .friendMessage {
     position: relative;
+    left: 670px;
+    display: flex;
+    flex-direction: column;
+    /*float: right;*/
+    align-items: flex-end;
     width: max-content;
-    margin-top: 10px;
+    margin: 10px 70px 10px 0px;
+
 }
 
 .friendImageAndText {
-    position: relative;
-
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    align-items: flex-end;
 }
 
 .friendImageAndText img {
-    position:absolute;
-    left: 1162px;
-    bottom: 5px;
     width: 50px;
     height: 50px;
     border-style: solid;
@@ -22,12 +27,11 @@
 .friendText {
     position: relative;
     display: block;
-    left: 735px;
     text-align: right;
     min-width: 30px;
     min-height: 60px;
     font-family: 'Montserrat';
-    margin-left: 20px;
+    margin-right: 20px;
     max-height: 500px;
     background: #0066CC;
     border-radius: 10px 10px 0 10px;
@@ -46,7 +50,6 @@
 }
 
 .friendName {
-    position: relative;
     padding: 10px 10px 0px 10px;
     font-style: normal;
     font-weight: 600;
@@ -56,7 +59,6 @@
 }
 
 .friendMessageText {
-    position: relative;
     font-family: 'Montserrat';
     padding: 0 10px 10px 10px;
     font-style: normal;
@@ -66,13 +68,13 @@
 }
 
 .friendTime {
-    position: absolute;
     width: 29px;
     height: 12px;
-    left: 1173px;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
     font-size: 10px;
     line-height: 12px;
+    color: #000000;
+    margin-right: 10px;
 }
