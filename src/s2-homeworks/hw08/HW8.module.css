@@ -1,23 +1,44 @@
+@import url('http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900italic,900');
 .item {
+    border-top: 1px solid #E5E5E5;
 }
 
 .item:last-of-type {
 }
 
 .users {
+    width: 100%;
+    margin-top: 10px;
+    border-collapse: collapse;
+    color: #000000;
+    font-family: 'Roboto';
+    font-size: 14px;
 }
 
 .buttonsContainer {
+    display: flex;
+    justify-content: right;
 }
-
+.buttonsContainer button{
+    margin-left: 10px;
+}
 .container {
+    display: flex;
+    flex-direction: column;
+    width: 606px;
 }
 
 .thead {
+    background-color: #E5E5E5;
+    height: 36px;
+    font-weight: bold;
 }
 
 .nameCol {
+    padding: 10px 0 10px 10px;
 }
 
 .ageCol {
+    padding: 10px 0 10px 10px;
+    font-weight: bold;
 }
