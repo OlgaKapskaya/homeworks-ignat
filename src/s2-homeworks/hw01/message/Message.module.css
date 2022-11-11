@@ -2,9 +2,11 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    width: max-content;
-    margin-top: 10px;
-    margin-left: 70px;
+    margin: 30px 20px;
+}
+pre{
+    word-wrap: break-word;
+    white-space: pre-wrap;
 }
 
 .imageAndText {

@@ -2,10 +2,8 @@
     justify-content: flex-end;
     display: flex;
     flex-direction: column;
-    /*float: right;*/
     align-items: flex-end;
-    width: 100%;
-    /*margin: 10px 70px 10px 0px;*/
+    margin: 30px 20px;
 
 }
 
@@ -14,7 +12,6 @@
     flex-direction: row-reverse;
     justify-content: flex-end;
     align-items: flex-end;
-    margin-right: 70px;
 }
 
 .friendImageAndText img {
@@ -36,6 +33,10 @@
     background: #0066CC;
     border-radius: 10px 10px 0 10px;
     box-shadow: 0px 5px 20px rgba(29, 33, 38, 0.03), 0px 1px 2px rgba(29, 33, 38, 0.1);
+}
+pre{
+    word-wrap: break-word;
+    white-space: pre-wrap;
 }
 
 .friendText:after {
@@ -76,5 +77,5 @@
     font-size: 10px;
     line-height: 12px;
     color: #000000;
-    margin-right: 80px;
+    margin-right: 10px;
 }
