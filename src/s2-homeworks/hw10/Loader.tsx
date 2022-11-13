@@ -1,3 +1,5 @@
 import s from './Loader.module.css'
-
-export const Loader = () => <div className={s.loader}/>
+import spinner from './eclipse.svg'
+export const Loader = () => <div className={s.loader}>
+    <img src={spinner} style={{width: '90px'}}/>
+</div>
