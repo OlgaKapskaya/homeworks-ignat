@@ -1,8 +1,18 @@
 .container {
+
 }
 
 .wrapper {
+    display: flex;
+    align-items: center;
+    margin: 10px;
 }
 
 .number {
+    width: 20px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+
+    color: #000000;
 }
