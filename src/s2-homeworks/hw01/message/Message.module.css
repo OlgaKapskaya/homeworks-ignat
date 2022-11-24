@@ -14,7 +14,6 @@ pre{
     flex-direction: row;
     justify-content: flex-start;
     align-items: flex-start;
-
 }
 
 .imageAndText img {
@@ -50,7 +49,6 @@ pre{
 }
 
 .name {
-
     padding: 10px 10px 0px 10px;
     font-style: normal;
     font-weight: 600;
@@ -76,6 +74,5 @@ pre{
     font-weight: 600;
     font-size: 10px;
     line-height: 12px;
-    color: #000000;
     margin-left: 10px;
 }
