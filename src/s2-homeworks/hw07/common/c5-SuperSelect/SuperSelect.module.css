@@ -31,7 +31,7 @@
     -webkit-appearance: none;
     /*!*    *!*/
     width: 180px;
-    background: #FFFFFF;
+    background: transparent;
     border: 1px solid #C2C2C2;
     border-radius: 2px;
     outline: none;
