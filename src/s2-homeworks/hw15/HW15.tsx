@@ -5,6 +5,7 @@ import axios from 'axios'
 import SuperPagination from './common/c9-SuperPagination/SuperPagination'
 import {useSearchParams} from 'react-router-dom'
 import SuperSort from './common/c10-SuperSort/SuperSort'
+import {Loader} from "../hw10/Loader";
 
 /*
 * 1 - дописать SuperPagination - done
@@ -57,7 +58,7 @@ const HW15 = () => {
         // делает студент
         setPage(newPage)
         setCount(newCount)
-        setSearchParams({page: newPage.toString(), count: newCount.toString(), sort: sort})
+        setSearchParams({page: newPage.toString(), count: newCount.toString(), sort})
     }
 
     const onChangeSort = (newSort: string) => {
@@ -96,29 +97,33 @@ const HW15 = () => {
             <div className={s2.hwTitle}>Homework #15</div>
 
             <div className={s2.hw}>
-                {idLoading && <div id={'hw15-loading'} className={s.loading}>Loading...</div>}
-
                 <SuperPagination
                     page={page}
                     itemsCountForPage={count}
                     totalCount={totalCount}
                     onChange={onChangePagination}
                 />
+                {
+                    idLoading
+                        ? <div id={'hw15-loading'} className={s.loading}><Loader/></div>
+                        : <>
+                            <div className={s.rowHeader}>
+                                <div className={s.techHeader}>
+                                    tech
+                                    <SuperSort sort={sort} value={'tech'} onChange={onChangeSort}/>
+                                </div>
 
-                <div className={s.rowHeader}>
-                    <div className={s.techHeader}>
-                        tech
-                        <SuperSort sort={sort} value={'tech'} onChange={onChangeSort}/>
-                    </div>
+                                <div className={s.developerHeader}>
+                                    developer
+                                    <SuperSort sort={sort} value={'developer'} onChange={onChangeSort}/>
+                                </div>
+                            </div>
 
-                    <div className={s.developerHeader}>
-                        developer
-                        <SuperSort sort={sort} value={'developer'} onChange={onChangeSort}/>
-                    </div>
-                </div>
-
-                {mappedTechs}
+                            {mappedTechs}
+                        </>
+                }
             </div>
+
         </div>
     )
 }

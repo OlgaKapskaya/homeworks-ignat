@@ -48,6 +48,10 @@ const SuperPagination: React.FC<SuperPaginationPropsType> = (
                     '& .MuiPaginationItem-root.Mui-selected':{
                         color: "white",
                         background: "#0066CC",
+                        '&:hover': {
+                            color: "white",
+                            background: "#0066CC",
+                        },
                     },
 
                 }}

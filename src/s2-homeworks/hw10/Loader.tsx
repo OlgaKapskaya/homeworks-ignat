@@ -1,5 +1,5 @@
 import s from './Loader.module.css'
-import spinner from './eclipse.svg'
+import spinner from './Ellipse 4.png'
 export const Loader = () => <div className={s.loader}>
-    <img src={spinner} style={{width: '90px'}}/>
+    <img src={spinner} className={s.logo} alt='spinner'/>
 </div>

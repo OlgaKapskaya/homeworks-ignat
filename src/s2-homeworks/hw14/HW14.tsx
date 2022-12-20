@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from 'react'
 import s2 from '../../s1-main/App.module.css'
 import s from './HW14.module.css'
-import axios, {AxiosResponse} from 'axios'
+import axios from 'axios'
 import SuperDebouncedInput from './common/c8-SuperDebouncedInput/SuperDebouncedInput'
 import {useSearchParams} from 'react-router-dom'
 
@@ -40,7 +40,7 @@ const HW14 = () => {
 
     const onChangeText = (value: string) => {
         setFind(value)
-        setSearchParams(value)
+        setSearchParams({find: value})
     }
 
     useEffect(() => {
